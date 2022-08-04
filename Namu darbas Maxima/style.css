@@ -1,0 +1,54 @@
+body{
+    background: rgb(216, 211, 211);
+}
+header,section{
+    background: white;
+    margin:1rem auto;
+    text-align: center;
+    padding:1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 6px rgb(215, 239, 179);
+    
+}
+header img{
+    height: 6rem;   
+}
+header a{
+    color:rgb(33, 26, 15);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+.container{
+    padding:1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    background: white;
+    margin:1rem auto;
+    text-align: center;
+    font-size: 30px;
+}
+header ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+header li{
+    margin-right:20px;
+    display: inline;
+
+}
+#apie{
+    text-align: justify;
+}
+.#apie{
+    text-align: center;
+    background-color: aqua 2px 2px;
+}
+h2{
+    text-align: center;
+    text-decoration: wavy;
+}
+#apie p{
+    text-align: justify;
+}

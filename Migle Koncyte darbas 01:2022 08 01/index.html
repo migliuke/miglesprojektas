@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Todo App</title>
+</head>
+<body>
+    <nav>
+        <div class="title">
+          <div class="header">
+    <header class="title"> Best <span class="ToDo">ToDo</span><span> App</span></header>
+            </div>
+<ul class="social">
+    <li>
+        <a href="https://www.facebook.com">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>    
+    </li>
+    <li>
+        <a href="https://twitter.com">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>    
+    </li>
+    <li>
+        <a href="https://instagram.com">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>    
+    </li>
+</ul>
+</div>
+</nav>
+<main>
+    <div class="taskform">
+        <h2>Your task</h2>
+        <input type="text" name="name" class="form body" placeholder="e.g. wash dishes" />
+        <button type="submit" class="submitbutton">Add</button>
+    </div>
+    <small class="alert">there was an error</small>
+</div>
+<section class="tasks-container">
+  <div class="tasks">
+    <div class="single-task">
+      <h5><i class="far fa-check-circle"></i>Take out trashes</h5>
+      <div class="task-links">
+        <a href="task.html" class="edit-link">
+          <i class="fas fa-edit"></i>
+        </a>
+        <button type="button" class="delete-btn" data-id="123">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+    </div>
+    <div class="single-task task-completed">
+      <h5>
+        <span><i class="far fa-check-circle"></i></span>Walk the dog
+      </h5>
+      <div class="task-links">
+        <a href="task.html" class="edit-link">
+          <i class="fas fa-edit"></i>
+        </a>
+        <button type="button" class="delete-btn" data-id="123">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+</body>
+</html>

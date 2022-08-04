@@ -1,0 +1,35 @@
+fieldset{
+    width: 15cm;
+    height: 20px;
+    margin: 1cm;
+    border:0cm;}
+    header{
+        font-size:50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.Contact{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    display: block;
+}
+.Card{
+    margin: 10px;
+    background-color: aqua;
+}
+.data{
+    margin:10px;
+    background-color: bisque;
+}
+.lentele{
+width: 500px;
+height: 800px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 40px;
+  border-radius: 20%;
+}
+.area{
+    size: 30px;
+}
